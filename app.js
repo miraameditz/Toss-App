@@ -13,9 +13,9 @@ function headBtn() {
     }
 
     if (num === 1) {
-        toss_coin.src = "./assets/Chaand.png"
+        toss_coin.src = "./Chaand.png"
     } else {
-        toss_coin.src = "./assets/paanch.png"
+        toss_coin.src = "./paanch.png"
     }
 
 
@@ -35,10 +35,10 @@ function tailBtn() {
     }
 
     if (num === 2) {
-        toss_coin.src = "./assets/paanch.png"
+        toss_coin.src = "./paanch.png"
         toss_coin.classList.add('rotate');
     } else {
-        toss_coin.src = "./assets/Chaand.png"
+        toss_coin.src = "./Chaand.png"
         toss_coin.classList.add('rotate');
     }
 
